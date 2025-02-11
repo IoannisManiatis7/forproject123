@@ -106,10 +106,12 @@ $a = array("a"=>"/common/imgs/fallback/vima-def-a.jpg",
           );
 // echo(array_rand($a,1));
 
-  // add_filter('upload_dir', 'cdn_upload_url');
-  // function cdn_upload_url($args) { $args['baseurl'] = 'https://www.tovima.gr/wp-content/uploads';
-  // return $args;
-  // }
+/* IMAGE UPLOAD PATH */
+add_filter('upload_dir', 'cdn_upload_url');
+function cdn_upload_url($args) { 
+  $args['baseurl'] = 'https://www.tovima.com/wp-content/uploads';
+  return $args;
+}
 
 
 add_action('admin_head', 'my_custom_fonts');
