@@ -29,9 +29,9 @@
   <div class="column">
     <div class="columns is-mobile is-multiline is-variable <?php echo VARIABLES; ?>">
       
-      <?php $cc = 0; $gnomesmore = get_field('box5_selection','tovima_opinions'); foreach($gnomesmore as $post) { setup_postdata($post); $cc++; if($cc > 2) continue; 
-      $term_list = wp_get_post_terms($post->ID, 'nea_authors', array("fields" => "all")); 
-      $author_image = get_field('author-image', 'nea_authors_' . $term_list[0]->term_id . ''); ?>
+      <?php 
+      $cc = 0; $gnomesmore = get_field('box5_selection','tovima_opinions'); foreach($gnomesmore as $post) { setup_postdata($post); $cc++; if($cc > 2) continue; 
+      $term_list = wp_get_post_terms($post->ID, 'nea_authors', array("fields" => "all")); ?>
       <div class="column is-4-tablet is-4-mobile is-full-small is-relative br edit__col">
         <div class="author-col">
         <div class="author-post-col">
@@ -53,13 +53,15 @@
           </a>
         </div>
           
-        <?php if($author_image && $term_list) { ?>
+        <?php if($term_list) { 
+        $author_image = get_field('author-image', 'nea_authors_' . $term_list[0]->term_id . '');
+        if($author_image) { ?>
         <div class="author-image-col">
           <div class="is-relative author_image overlay">
             <img loading="lazy" src="<?php echo $author_image; ?>" width="150" height="150" alt="<?php echo $term_list[0]->name; ?>" />
           </div>
         </div>
-        <?php } ?>
+        <?php } } ?>
           
         </div>
       </div>
@@ -69,8 +71,8 @@
       <?php $cc = 0; $gnomesmorex = get_field('box5_selection','tovima_opinions'); foreach($gnomesmorex as $post) { setup_postdata($post); $cc++; if($cc < 3) continue; ?>
         <div class="author-col author--col--<?php echo $cc; ?>">
         <div class="author-post-col">
-          <?php $term_list = wp_get_post_terms($post->ID, 'nea_authors', array("fields" => "all")); 
-          $author_image = get_field('author-image', 'nea_authors_' . $term_list[0]->term_id . ''); ?>
+          <?php 
+          $term_list = wp_get_post_terms($post->ID, 'nea_authors', array("fields" => "all")); ?>
           <?php if(get_field('exauthor_textn')) { ?>
           <span style="color:var(--darkblue)" class="is-block vima-author line-height-1 manrope is-size-5 f-700 mb-5">
             <?php the_field('exauthor_textn'); ?>
@@ -89,13 +91,15 @@
           </a>
         </div>
           
-        <?php if($author_image && $term_list) { ?>
+        <?php if($term_list) { 
+        $author_image = get_field('author-image', 'nea_authors_' . $term_list[0]->term_id . ''); 
+        if($author_image) { ?>
         <div class="author-image-col">
           <div class="is-relative author_image overlay">
             <img loading="lazy" src="<?php echo $author_image; ?>" width="150" height="150" alt="<?php echo $term_list[0]->name; ?>" />
           </div>
         </div>
-        <?php } ?>
+        <?php } } ?>
           
         </div>
         <?php if($cc == 3) { ?>

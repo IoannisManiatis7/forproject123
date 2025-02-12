@@ -1,7 +1,7 @@
 <?php
 define('VARIABLES', 'is-4-desktop');
-define('WHSK_DATE_QUERY', '62 days ago');
-define('WHSK_DATE_QUERY_UP', '42 days ago');
+define('WHSK_DATE_QUERY', '');
+define('WHSK_DATE_QUERY_UP', '');
 define('URL', '');
 define('READMORE', 'VIEW ALL');
 
