@@ -18,7 +18,7 @@ $getposcat = $categoryn[0]->cat_ID;
 <?php } */ ?>
 
 
-<?php if(is_category('science') || in_category('science')) { ?>
+<?php if( in_category('science') && $temp_layout != 'art04' ) { ?>
 <div class="column is-full">
   <div class="sponsored-row" style="padding: 5px 0;background-color:#FFFFFF;text-align:center;line-height: 1;">
     <a style="display: block;margin:0 auto;width:90%;max-width:270px;" href="https://www.metlengroup.com/" target="_blank">

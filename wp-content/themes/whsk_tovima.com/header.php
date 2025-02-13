@@ -20,16 +20,15 @@
 
   
   <?php wp_head(); ?>
-  
 
-  <link rel="shortcut icon" href="/wp-content/themes/whsk_tovima.com/common/imgs/icons/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/whsk_tovima.com/common/imgs/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/whsk_tovima.com/common/imgs/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/whsk_tovima.com/common/imgs/icons/favicon-16x16.png">
-  <link rel="manifest" href="/wp-content/themes/whsk_tovima.com/common/imgs/icons/site.webmanifest">
-  <link rel="mask-icon" href="/wp-content/themes/whsk_tovima.com/common/imgs/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/common/imgs/iconsv_2/android-chrome-256x256.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/common/imgs/iconsv_2/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/common/imgs/iconsv_2/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/common/imgs/iconsv_2/favicon-16x16.png">
+  <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/common/imgs/iconsv_2/site.webmanifest">
+  <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/common/imgs/iconsv_2/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">  
     
   <link href='https://fonts.googleapis.com' rel='preconnect' crossorigin>
   <link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>

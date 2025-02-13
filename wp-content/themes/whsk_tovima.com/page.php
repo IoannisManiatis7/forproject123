@@ -9,7 +9,8 @@ get_header(); ?>
   .content-page{padding:0 12px;max-width:600px;margin:0 auto;position:relative}
   .content-page {padding-top: 1px}
   .page-body{font-size:18px;line-height:1.3;}
-  .page-body p {margin: 20px 0}  
+  .page-body p {margin: 20px 0}
+  .page-body p a{text-decoration:underline}
 </style>
 
 <main class="maxgridrow">

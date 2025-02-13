@@ -469,15 +469,15 @@ if( function_exists('acf_add_options_page') ) {
 // 		'parent_slug' => $parentH['menu_slug'],
 // 	));
 
-// 	acf_add_options_sub_page(array(
-// 		'page_title' 	=> 'Podcast Vima',
-// 		'menu_title' 	=> 'Podcast Vima',
-// 		'menu_slug' 	=> 'tovimagr_podcast',
-// 		'capability'	=> 'edit_posts',
-// 		'redirect'		=> false,
-// 		'post_id'     => 'tovimagr_podcast',
-// 		'parent_slug' => $parent['menu_slug'],
-// 	));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Podcast Vima',
+		'menu_title' 	=> 'Podcast Vima',
+		'menu_slug' 	=> 'tovimagr_podcast',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false,
+		'post_id'     => 'tovimagr_podcast',
+		'parent_slug' => $parent['menu_slug'],
+	));
   
 /*
 acf_add_options_sub_page(array(

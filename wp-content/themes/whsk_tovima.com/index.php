@@ -4,9 +4,10 @@
 $homerows = array(
   
   array('layout' => 'top'),  
-  array('title' => 'STORIES', 'slug' => 'stories', 'layout' => 'ft-1'),
+  array('title' => 'STORIES', 'slug' => 'stories', 'layout' => 'ft-1'),  
+  array('layout' => 'podcast'),
   array('title' => 'POLITICS', 'slug' => 'politics', 'layout' => 'normal', 'extra-class' => 'no-bp-rows'),  
-  array('title' => 'FINANCE', 'slug' => 'finance', 'layout' => 'normal', 'extra-class' => 'no-b-rows'),  
+  array('title' => 'FINANCE', 'slug' => 'finance', 'layout' => 'normal', 'extra-class' => 'no-b-rows'),
   array('title' => 'SOCIETY', 'slug' => 'society', 'layout' => 'unorder'),
   array('title' => '', 'slug' => 'wsj', 'active' => 'yes', 'layout' => 'onerow', 'relationship' => 'yes', 'acfname' => 'box5_selection', 'pagename' => 'tovima_wsj', 'pubitems' => '4', 'extra-class' => 'wsj'),
   array('title' => 'CLIMATE', 'slug' => 'climate', 'layout' => 'double'),
@@ -71,6 +72,11 @@ $homerows = array(
   <section class="home-section">
     <?php include(TEMPLATEPATH.'/assets/home/layouts/prosfores.php'); ?>
   </section>
+
+  <?php } elseif($row['layout'] === 'podcast') { ?>
+  <section class="home-section">
+    <?php include(TEMPLATEPATH.'/assets/elements/podcast.php'); ?>
+  </section>  
 
   <?php } elseif($row['layout'] === 'vita') { ?>
   <section id="vitagr" class="is-relative home-section layout-onerow">

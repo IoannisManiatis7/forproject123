@@ -334,8 +334,6 @@ if (is_category()) {
         if (islot) {islot.addService(googletag.pubads());}
         <?php if(is_single()){ ?>
         googletag.defineSlot('/28509845/tovima_group/tovima_textlink_1', [520, 40], 'textlink_1').defineSizeMapping(textlink_mapping).addService(googletag.pubads());
-        googletag.defineSlot('/28509845/tovima_group/tovima_textlink_2', [520, 40], 'textlink_2').defineSizeMapping(textlink_mapping).addService(googletag.pubads());
-        googletag.defineSlot('/28509845/tovima_group/tovima_textlink_3', [520, 40], 'textlink_3').defineSizeMapping(textlink_mapping).addService(googletag.pubads());
         googletag.defineSlot('/28509845/tovima_group/tovima_640x360_overlay', [640, 360], '640x360').addService(googletag.companionAds()).addService(googletag.pubads());
         <?php } ?>
         googletag.pubads().setTargeting('AdServer', adserver);
