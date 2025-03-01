@@ -1,6 +1,8 @@
 <?php if(get_field('podcast_field', 'tovimagr_podcast')) {
 $postobject = get_field('podcast_chosen', 'tovimagr_podcast'); 
-$podcover = get_field('podcast_cover', 'tovimagr_podcast'); ?>
+$podcover = get_field('podcast_cover', 'tovimagr_podcast'); 
+$podname = get_field('podcast_title', 'tovimagr_podcast');
+$podlink = get_field('podcast_link', 'tovimagr_podcast'); ?>
 <div class="wrap-podcast wrap-wrap" style="background-color:#EBEEF5">
   <div class="maxgridrow">
   <div class="columns is-mobile is-multiline is-variable <?php echo VARIABLES; ?>">
@@ -34,10 +36,12 @@ $podcover = get_field('podcast_cover', 'tovimagr_podcast'); ?>
         <div class="podcast-inner-col">
           
           <div class="podcast-inner-header">
-            <?php if(get_field('podcast_title', 'tovimagr_podcast')) { ?>
-            <a href="/tag/explaining_greece/">
-              <span class="manrope podcast-showname"><?php echo get_field('podcast_title', 'tovimagr_podcast') ?></span>
-            </a>
+            <?php if($podname && $podlink) { ?>
+              <a href="<?php echo $podlink; ?>">
+                <span class="manrope podcast-showname">
+                  <?php echo $podname; ?>
+                </span>
+              </a>
             <?php } ?>
             
             <?php if( $postobject ) { ?>

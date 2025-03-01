@@ -67,33 +67,36 @@
   <div class="burger-footer">
     <div class="social-footer">
       <div class="is-flex">
-        <a href="https://www.facebook.com/tovimacom/" target="_blank" rel="nofollow" title="TO BHMA @ FACEBOOK">
-<svg xmlns="http://www.w3.org/2000/svg" width="9" height="17" viewBox="0 0 9 17">
-  <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M10.02,9.563l.467-3.077H7.568v-2A1.53,1.53,0,0,1,9.283,2.827h1.327V.208A16,16,0,0,0,8.255,0c-2.4,0-3.974,1.474-3.974,4.141V6.486H1.609V9.563H4.281V17H7.568V9.563Z" transform="translate(-1.609)" fill="#262626"/>
-</svg>
+        <a href="https://www.facebook.com/tovimacom/" target="_blank" rel="nofollow" title="tovima.com @ FACEBOOK">
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="17" viewBox="0 0 9 17">
+            <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M10.02,9.563l.467-3.077H7.568v-2A1.53,1.53,0,0,1,9.283,2.827h1.327V.208A16,16,0,0,0,8.255,0c-2.4,0-3.974,1.474-3.974,4.141V6.486H1.609V9.563H4.281V17H7.568V9.563Z" transform="translate(-1.609)" fill="#262626"/>
+          </svg>
         </a>
-        <a href="https://twitter.com/tovimacom/" target="_blank" rel="nofollow" title="TO BHMA @ TWITTER">
-        <svg fill="#262626" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" version="1.1">
-          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
-        </svg>
+        <a href="https://twitter.com/tovimacom/" target="_blank" rel="nofollow" title="tovima.com @ TWITTER">
+          <svg fill="#262626" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" version="1.1">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+          </svg>
         </a>
-        <a href="https://www.instagram.com/tovimagr/" target="_blank" rel="nofollow" title="TO BHMA @ INSTAGRAM">
-<svg xmlns="http://www.w3.org/2000/svg" width="18" height="17.996" viewBox="0 0 18 17.996">
-  <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M9,6.622a4.614,4.614,0,1,0,4.614,4.614A4.607,4.607,0,0,0,9,6.622Zm0,7.614a3,3,0,1,1,3-3A3.005,3.005,0,0,1,9,14.235Zm5.879-7.8A1.076,1.076,0,1,1,13.8,5.357,1.074,1.074,0,0,1,14.876,6.433Zm3.056,1.092a5.326,5.326,0,0,0-1.454-3.771A5.361,5.361,0,0,0,12.707,2.3c-1.486-.084-5.939-.084-7.425,0a5.353,5.353,0,0,0-3.771,1.45A5.343,5.343,0,0,0,.058,7.521c-.084,1.486-.084,5.939,0,7.425a5.326,5.326,0,0,0,1.454,3.771A5.368,5.368,0,0,0,5.282,20.17c1.486.084,5.939.084,7.425,0a5.326,5.326,0,0,0,3.771-1.454,5.361,5.361,0,0,0,1.454-3.771c.084-1.486.084-5.935,0-7.421ZM16.012,16.54A3.037,3.037,0,0,1,14.3,18.251c-1.185.47-4,.361-5.3.361s-4.124.1-5.3-.361A3.037,3.037,0,0,1,1.981,16.54c-.47-1.185-.361-4-.361-5.3s-.1-4.124.361-5.3A3.037,3.037,0,0,1,3.692,4.22c1.185-.47,4-.361,5.3-.361s4.124-.1,5.3.361a3.037,3.037,0,0,1,1.711,1.711c.47,1.185.361,4,.361,5.3S16.482,15.36,16.012,16.54Z" transform="translate(0.005 -2.238)" fill="#262626"/>
-</svg>
+        <a href="https://www.instagram.com/tovimacom/" target="_blank" rel="nofollow" title="tovima.com @ INSTAGRAM">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17.996" viewBox="0 0 18 17.996">
+            <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M9,6.622a4.614,4.614,0,1,0,4.614,4.614A4.607,4.607,0,0,0,9,6.622Zm0,7.614a3,3,0,1,1,3-3A3.005,3.005,0,0,1,9,14.235Zm5.879-7.8A1.076,1.076,0,1,1,13.8,5.357,1.074,1.074,0,0,1,14.876,6.433Zm3.056,1.092a5.326,5.326,0,0,0-1.454-3.771A5.361,5.361,0,0,0,12.707,2.3c-1.486-.084-5.939-.084-7.425,0a5.353,5.353,0,0,0-3.771,1.45A5.343,5.343,0,0,0,.058,7.521c-.084,1.486-.084,5.939,0,7.425a5.326,5.326,0,0,0,1.454,3.771A5.368,5.368,0,0,0,5.282,20.17c1.486.084,5.939.084,7.425,0a5.326,5.326,0,0,0,3.771-1.454,5.361,5.361,0,0,0,1.454-3.771c.084-1.486.084-5.935,0-7.421ZM16.012,16.54A3.037,3.037,0,0,1,14.3,18.251c-1.185.47-4,.361-5.3.361s-4.124.1-5.3-.361A3.037,3.037,0,0,1,1.981,16.54c-.47-1.185-.361-4-.361-5.3s-.1-4.124.361-5.3A3.037,3.037,0,0,1,3.692,4.22c1.185-.47,4-.361,5.3-.361s4.124-.1,5.3.361a3.037,3.037,0,0,1,1.711,1.711c.47,1.185.361,4,.361,5.3S16.482,15.36,16.012,16.54Z" transform="translate(0.005 -2.238)" fill="#262626"/>
+          </svg>
         </a>
-        <a href="https://www.linkedin.com/company/tovimagr/" target="_blank" rel="nofollow" title="TO BHMA @ LINKEDIN">
-<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-  <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M4.029,18H.3V5.983H4.029ZM2.161,4.344A2.171,2.171,0,1,1,4.322,2.162,2.179,2.179,0,0,1,2.161,4.344ZM18,18H14.272V12.15c0-1.394-.028-3.182-1.94-3.182-1.94,0-2.238,1.515-2.238,3.082V18H6.367V5.983H9.946V7.622H10a3.921,3.921,0,0,1,3.531-1.941C17.306,5.682,18,8.169,18,11.4V18Z" transform="translate(0 -0.001)" fill="#262626"/>
-</svg>
+        <a href="https://www.linkedin.com/showcase/tovima-com/" target="_blank" rel="nofollow" title="tovima.com @ LINKEDIN">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+            <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M4.029,18H.3V5.983H4.029ZM2.161,4.344A2.171,2.171,0,1,1,4.322,2.162,2.179,2.179,0,0,1,2.161,4.344ZM18,18H14.272V12.15c0-1.394-.028-3.182-1.94-3.182-1.94,0-2.238,1.515-2.238,3.082V18H6.367V5.983H9.946V7.622H10a3.921,3.921,0,0,1,3.531-1.941C17.306,5.682,18,8.169,18,11.4V18Z" transform="translate(0 -0.001)" fill="#262626"/>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@tovima-cq9ze" rel="nofollow" title="tovima.com @ YOUTUBE">
+          <svg height="67px" width="67px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461.001 461.001" xml:space="preserve" fill="#262626"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path style="fill:#262626;" d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728 c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137 C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607 c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"></path> </g> </g></svg>
         </a>
       </div>
     </div>
    <div class="burger-logo">
-     <img loading="lazy" src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.gr" width="130" height="20" />
+     <img loading="lazy" src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.com" width="130" height="20" />
    </div>    
     <p class="copyright-footer-text m-0 manrope f-500" style="color:#8C8C8C;font-size:12px">
-      © 2023 TOVIMA.COM • All rights reserved.
+      © 2025 TOVIMA.COM • All rights reserved.
     </p>
   </div>
   

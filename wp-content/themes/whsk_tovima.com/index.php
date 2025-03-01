@@ -4,8 +4,8 @@
 $homerows = array(
   
   array('layout' => 'top'),  
-  array('title' => 'STORIES', 'slug' => 'stories', 'layout' => 'ft-1'),  
   array('layout' => 'podcast'),
+  array('title' => 'STORIES', 'slug' => 'stories', 'layout' => 'ft-1'),
   array('title' => 'POLITICS', 'slug' => 'politics', 'layout' => 'normal', 'extra-class' => 'no-bp-rows'),  
   array('title' => 'FINANCE', 'slug' => 'finance', 'layout' => 'normal', 'extra-class' => 'no-b-rows'),
   array('title' => 'SOCIETY', 'slug' => 'society', 'layout' => 'unorder'),
