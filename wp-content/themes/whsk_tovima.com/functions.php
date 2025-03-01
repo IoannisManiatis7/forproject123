@@ -8,6 +8,22 @@ define('READMORE', 'VIEW ALL');
 add_filter('show_admin_bar', '__return_false');
 
 
+
+/* SAVE ACF FIELDS IN TO A NEW JSON */
+function my_acf_json_save_point( $path ) {
+  $path = get_stylesheet_directory() . '/acf-json';
+  return $path;
+}
+add_filter( 'acf/settings/save_json', 'my_acf_json_save_point' );
+
+function my_acf_json_load_point( $paths ) {
+  unset($paths[0]);
+  $paths[] = get_stylesheet_directory() . '/acf-json';
+  return $paths;
+}
+add_filter( 'acf/settings/load_json', 'my_acf_json_load_point' );
+
+
 function makeInternalLinkRelative($src){
   return str_replace(get_option('siteurl'),'',$src);
 }
@@ -26,7 +42,6 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 /* COUNT CATEGORIES */
 function count_category_post( $category )  {
-
   if( is_string( $category ) ) :
       $category_Id = get_cat_ID( $category );
   elseif( is_numeric( $category ) ) :
@@ -343,9 +358,7 @@ function posts_columns_id($defaults){
     return $defaults;
 }
 function posts_custom_id_columns($column_name, $id){
-        if($column_name === 'wps_post_id'){
-                echo $id;
-    }
+  if($column_name === 'wps_post_id'){ echo $id}
 }
 
 // Determine ID column width
