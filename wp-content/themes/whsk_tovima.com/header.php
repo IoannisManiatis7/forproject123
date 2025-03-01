@@ -42,6 +42,7 @@
   <link href='https://accounts.google.com' rel='preconnect' crossorigin>
   <link href='https://ssl.gstatic.com' rel='preconnect' crossorigin>
   
+  <script src="<?php echo get_template_directory_uri(); ?>/common/js/compliance.js"></script>
   <?php include (TEMPLATEPATH . '/assets/headers.php'); ?>
   <?php include (TEMPLATEPATH . '/assets/dfp/dfp-tags.php'); ?>
   
@@ -121,6 +122,8 @@
   <script type="text/javascript" src="https://player.kwikmotion.com/ClientsTemplates/Megatv/KwikLink_311592e7-13f8-4268-b02a-633895abae3b.js"></script>
   <?php } ?>
   
+  <script data-cmp-script="text/javascript" data-src="/wp-content/themes/whsk_tovima.com/common/js/facebookpixel.js"></script>
+
   <?php /*
   <script data-schema="NewsMediaOrganization" type="application/ld+json">
     {

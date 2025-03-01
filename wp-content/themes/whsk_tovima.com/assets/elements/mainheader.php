@@ -9,8 +9,8 @@
     array('title' => 'Travel', 'category' => 'travel'),
     array('title' => 'Climate', 'category' => 'climate'),
     array('title' => 'Opinions', 'category' => 'opinions'),
-    array('title' => 'The Wall Street Journal', 'category' => 'wsj'),
     array('title' => 'Stories', 'category' => 'stories'),
+    array('title' => 'The Wall Street Journal', 'category' => 'wsj'),
 //     array('title' => 'Sports', 'category' => 'sports'),    
 //     array('title' => 'Celebrities', 'category' => 'celebrities'),
 //     array('title' => 'Travel', 'category' => 'travel'),
@@ -75,17 +75,16 @@
       
       <div class="column is-4-desktop is-6-touch">
         <a href="/" class="main-logo is-block" title="tovima.com">
-          <picture>
-            <source media="(min-width:1023px)" srcset="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg">
-            <img src="/wp-content/themes/whsk_tovima.com/common/imgs/tovimacom_mobile.svg" alt="tovima.com" style="width:100%;">
-          </picture>
+          <img src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.com" style="width:100%;">
         </a>
       </div>
       
       <div class="column is-4 has-text-centered is-hidden-touch">
+        <?php /*
         <a href="https://www.wsj.com/" target="_blank" class="wsj-parter is-block" style="margin:0 auto;max-width:190px;line-height:0">
           <img style="max-width:100%;height:auto" alt="publishingPartnerWSJ" width="382" height="68" src="/wp-content/themes/whsk_tovima.com/common/imgs/publisherlogowsj.svg" />
         </a>
+        */ ?>
       </div>
       
       <?php /*

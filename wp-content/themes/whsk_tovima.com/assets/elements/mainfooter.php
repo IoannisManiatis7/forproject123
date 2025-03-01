@@ -23,11 +23,8 @@
   
       <div class="column is-full">
        <a href="/" title="tovima.com">
-        <picture>
-          <source media="(min-width:1023px)" srcset="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg">
-          <img src="/wp-content/themes/whsk_tovima.com/common/imgs/tovimacom_mobile.svg" alt="tovima.com" style="width:100%;">
-        </picture>
-       </a>  
+          <img src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.com" style="width:100%;">
+       </a>
       </div>
 
       <div class="column is-4-desktop is-full-small is-6-mobile">

@@ -92,3 +92,9 @@ function openx(e, t) {
 if ($(window).width() > 767 && $(window).width() < 1024) {  
 $('#wrap-subs-items').appendTo('#restItems');
 }
+
+/* PODCAST SUBSC */
+var dropbtn = document.querySelectorAll('.subscribe-label');
+  for (var i = 0; i < dropbtn.length; i++) {
+  dropbtn[i].addEventListener("click", function(){ this.parentElement.classList.toggle('active'); });
+}

@@ -169,7 +169,7 @@
 
 <div class="site-header">
   <a href="/" title="Αρχική" rel="home" class="main-logo">
-    <amp-img layout="responsive" src="/wp-content/themes/whsk_tovima.com/common/imgs/tovimacom_mobile.svg" alt="tovima.gr" width="300" height="46"></amp-img>
+    <amp-img layout="responsive" src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.gr" width="300" height="46"></amp-img>
   </a>
 </div>
 
@@ -343,7 +343,7 @@ include(TEMPLATEPATH .'/assets/single/author-related.php');
       
       <div class="column is-full">
         <a href="/" class="footer-logo">
-          <amp-img layout="responsive" src="/wp-content/themes/whsk_tovima.com/common/imgs/tovimacom_mobile.svg" alt="tovima.gr" width="300" height="46"></amp-img>
+          <amp-img layout="responsive" src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.gr" width="300" height="46"></amp-img>
         </a>
       </div>
       

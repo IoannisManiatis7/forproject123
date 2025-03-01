@@ -14,10 +14,7 @@
     <div class="is-hidden-desktop column has-text-left">
      <div class="burger-logo has-text-left">
        <a href="/" title="tovima.com">
-        <picture>
-          <source media="(min-width:1023px)" srcset="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg">
-          <img src="/wp-content/themes/whsk_tovima.com/common/imgs/tovimacom_mobile.svg" alt="tovima.com" style="width:100%;">
-        </picture>
+        <img src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.com" style="width:100%;">
        </a>
      </div>
     </div>
@@ -111,10 +108,7 @@
   
   <div class="footer-logo">
        <a href="/" title="tovima.com">
-        <picture>
-          <source media="(min-width:1023px)" srcset="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg">
-          <img src="/wp-content/themes/whsk_tovima.com/common/imgs/tovimacom_mobile.svg" alt="tovima.com" style="width: 100%;">
-        </picture>
+        <img src="/wp-content/themes/whsk_tovima.com/common/imgs/vimalogo.svg" alt="tovima.com" style="width: 100%;">
        </a>
   </div>
   
@@ -127,8 +121,8 @@
     <li class=""><a title="Read More about Science" href="/category/travel/">Travel</a></li>
     <li class=""><a title="Read More about Climate" href="/category/climate/">Climate</a></li>
     <li class=""><a title="Read More about Opinions" href="/category/opinions/">Opinions</a></li>
-    <li class=""><a title="Read More about WSJ" href="/category/wsj/">The Wall Street Journal</a></li>
     <li class=""><a title="Read More about Stories" href="/category/stories/">Stories</a></li>
+    <li class=""><a title="Read More about WSJ" href="/category/wsj/">The Wall Street Journal</a></li>
   </ul>
   
   <ul class="terms-menu">

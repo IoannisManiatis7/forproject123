@@ -372,7 +372,8 @@ acf_add_local_field_group(array(
         'taxonomy' => array(
           0 => 'category:opinions',
           1 => 'category:politics',
-          2 => 'category:wsj',          
+          2 => 'category:wsj',
+					3 => 'category:podcasts',
         ),
 			'filters' => array(
 				0 => 'search',
