@@ -358,7 +358,8 @@ function posts_columns_id($defaults){
     return $defaults;
 }
 function posts_custom_id_columns($column_name, $id){
-  if($column_name === 'wps_post_id'){ echo $id}
+        if($column_name === 'wps_post_id'){echo $id;
+    }
 }
 
 // Determine ID column width
