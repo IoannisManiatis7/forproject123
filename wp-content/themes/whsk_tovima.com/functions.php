@@ -1294,6 +1294,21 @@ function __search_by_title_only( $search, $wp_query ) {
 }
 add_filter('posts_search', '__search_by_title_only', 500, 2);
 
+//gia na fortwnete i css mono sto neo template
+function enqueue_recipe_styles() {
+  if ( is_single() ) {
+      wp_enqueue_style(
+          'recipe-style', 
+          get_template_directory_uri() . '/template-parts/recipe-style.css', 
+          array(), 
+          '1.0', 
+          'all'
+      );
+  }
+}
+add_action('wp_enqueue_scripts', 'enqueue_recipe_styles');
+
+
 
 /* NEW EDITOR BLOCK */
 function wpb_mce_buttons_2($buttons) {
@@ -1495,4 +1510,7 @@ function insert_banner_in_content($content) {
 
     // Αναδημιουργήστε το περιεχόμενο από τον πίνακα παραγράφων
     return implode('</p>', $paragraphs) . '</p>';
+
+  
+  
 }
