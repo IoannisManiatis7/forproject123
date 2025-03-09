@@ -23,16 +23,16 @@
 
 
 .recipe-title {
-    font-family: 'BF Vega 10', sans-serif !important;
     font-size: 50px;
     font-weight: normal;
     color: #000;
     letter-spacing: -1px;
     text-align: center;
-    margin-bottom: 10px;
     max-width: 726px;
     height: 111px;
+    padding-bottom: 10px; 
 }
+
 
 
 .recipe-description {
@@ -97,16 +97,6 @@
 }
 
 
-.info-title {
-    font-family: 'BF Vega 10', sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #F26127; 
-    letter-spacing: -0.56px;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
 
 .info-text {
     font-family: 'Manrope', sans-serif;
@@ -118,12 +108,17 @@
 
 .recipe-grid {
     display: grid;
-    grid-template-columns: 30% 40% 30%; 
+    grid-template-columns: 30% 40% 30%;  
+    grid-template-rows: auto auto; 
     align-items: start;
     padding: 20px 0;
-    
 }
 
+.recipe-extra {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .recipe-placeholder {
     width: 300px; 
@@ -144,6 +139,17 @@
     letter-spacing: -0.56px;
     text-align: left;
     margin-bottom: 10px;
+    padding-bottom: 5px;
+    position: relative; 
+}
+
+.info-title::after {
+    content: "";
+    display: block;
+    width: 302px; 
+    height: 0.5px;
+    background-color: #c5c5c5;
+    margin-top: 5px;
 }
 
 .info-text {
@@ -155,31 +161,36 @@
 }
 
 
-.recipe-ingredients h2 {
-    font-family: 'BF Vega 10', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #F26127;
-    letter-spacing: -0.56px;
+
+.ingredients-title {
     text-align: left;
-    
+    font-family: 'BF Vega 10', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    color: #F26127;
+    opacity: 1;
+    position: relative;
 }
+
+
+.ingredients-title::after {
+    content: "";
+    display: block;
+    width: 302px; 
+    height: 0.5px;
+    background-color: #c5c5c5; 
+    margin-top: 5px; 
+}
+
 
 .ingredients-list {
     font-size: 16px;
     color: #262626;
     line-height: 1.5;
+    list-style-position: inside; 
 }
 
-
-.recipe-steps h2 {
-    font-family: 'BF Vega 10', sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    color: #F26127;
-    letter-spacing: -0.56px;
-    text-align: left;   
-}
 
 
 .recipe-steps ol {
@@ -195,6 +206,7 @@
     text-align: left; 
     padding-left: 60px; 
     margin-bottom: 20px;
+    line-height: 28px;
 }
 
 .recipe-steps li::before {
@@ -207,10 +219,9 @@
     font-family: 'BF Vega Ultra 10', sans-serif;
     color: #A6A6A6; 
     letter-spacing: -0.88px;
-    opacity: 1;
-    line-height: 1; 
+    opacity: 1; 
     width: 40px; 
-    text-align: right; 
+    text-align: right;     
 }
 
 
@@ -279,8 +290,91 @@
 }
 
 
-@media (max-width: 768px) {
+.steps-title {
+    text-align: left;
+    font-family: 'BF Vega 10', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.56px;
+    color: #F26127;
+    opacity: 1;
+    position: relative;
+}
+
+.steps-title::after {
+    content: "";
+    display: block;
+    width: 726px;
+    height: 0.5px;
+    background-color: #c5c5c5;
+    margin-top: 5px;
+}
+
+
+
+
+.tipaki-title {
+    width: 100%; 
+    height: 53px;
+    background: #F26127; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding-left: 15px; 
+    gap: 0;
+    margin: 0;
+}
+
+.tipaki-wrapper {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-top: 30px;
+}
+
+.tipaki-list {
+    width: 100%; 
+    height: 114px; 
+    border: 1px solid #A6A6A6;
+    opacity: 1;
+    padding: 15px 20px; 
+    list-style-position: inside; 
+    display: flex;
+    flex-direction: column;
+    background-color: white; 
+    font-size: 20px;
+    margin: 0;
+}
+
+
+.recipe-source {
+    font-size: 14px;
+    color: #262626;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.recipe-steps ol li::marker, 
+.recipe-ingredients ul li::marker, 
+.tipaki-list ul li::marker {
+    color: #F26127; 
     
+}
+
+/* not ready */
+
+@media (max-width: 768px) {
+    .bcooking img {
+        width: 135px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+    }
+
     .container.article-layout {
         padding: 10px;
     }
@@ -294,15 +388,25 @@
     }
 
     .recipe-title {
-        font-size: 30px;
+        font-size: 38px;
         max-width: 90%;
         text-align: center;
+        order: 1; 
     }
 
-    .recipe-description {
-        font-size: 18px;
-        max-width: 90%;
-        text-align: center;
+    .recipe-author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        order: 2; 
+    }
+
+    .article-image {
+        order: 3; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .article-image img {
@@ -310,9 +414,11 @@
         height: auto;
     }
 
-    .recipe-author {
-        flex-direction: column;
-        align-items: center;
+    .recipe-description {
+        order: 4; 
+        font-size: 18px;
+        max-width: 90%;
+        text-align: center;
     }
 
     .recipe-grid {
@@ -331,20 +437,18 @@
     }
 
     .recipe-placeholder {
-        width: 100%;
-        height: 150px;
+        display: none;
     }
 
     .recipe-steps li {
-        font-size: 18px;
-        padding-left: 40px;
+        font-size: 20px;
         margin-bottom: 15px;
     }
 
     .recipe-steps li::before {
         font-size: 36px;
         width: 30px;
-        text-align: right;
+        text-align: center;
     }
 
     .info-title, .ingredients-title, .steps-title {
@@ -354,42 +458,6 @@
     .info-text, .ingredients-list {
         font-size: 16px;
     }
-
-  
-    .custom-divider, .info-divider, .ingr-divider, .steps-divider {
-        width: 90%;
-        margin: 20px auto;
-    }
 }
 
 
-@media (max-width: 1024px) {
-    .article-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .recipe-grid {
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-
-    .recipe-placeholder {
-        width: 80%;
-        height: 200px;
-    }
-
-    .recipe-title {
-        font-size: 34px;
-        width: 80%;
-    }
-
-    .recipe-description {
-        font-size: 20px;
-        width: 80%;
-    }
-
-    .recipe-sidebar {
-        width: 100%;
-    }
-}
