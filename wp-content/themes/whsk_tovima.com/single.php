@@ -41,12 +41,8 @@ get_header(); ?>
   ?>
 
   <?php while ( have_posts() ) : the_post(); ?>
-   <?php 
-  if (in_category('Cooking')) {
-      include(TEMPLATEPATH.'/template-parts/content-recipe.php');
-     } else {
-      include(TEMPLATEPATH.'/template-parts/content-single.php');
-    }
+  <?php $post = $wp_query->post;
+    include(TEMPLATEPATH.'/template-parts/content-single.php');
   ?>
 
   <?php include(TEMPLATEPATH .'/assets/single/structure.php'); ?>
